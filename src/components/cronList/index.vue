@@ -1,5 +1,5 @@
 <template>
   <div>
-    this is cron list
+    this is cron page
   </div>
 </template>

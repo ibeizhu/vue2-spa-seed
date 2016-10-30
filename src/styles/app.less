@@ -1,0 +1,64 @@
+html {
+  touch-action: manipulation;
+}
+.touchable {
+  -webkit-tap-highlight-color: transparent;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 22px;
+  padding-bottom: 0;
+}
+
+.ellipsizeSingleLine(@width){
+  text-overflow:ellipsis; overflow:hidden; white-space:nowrap;width:@width;
+}
+
+a,input,div,span,em,li,p,textarea,select,button{
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+}
+a {
+  text-decoration: none;
+  color: #df4a54;
+}
+img {
+  display: block;
+}
+ul li {
+  list-style: none;
+}
+input[type="button"], input[type="submit"], input[type="reset"] {
+  -webkit-appearance: none;
+}
+/**
+去除a标签的装饰样式
+*/
+a, a:link, a:hover, a:active, a:visited{ text-decoration:none;}
+
+.fleft {
+  float: left;
+}
+
+.fright {
+  float: right;
+}
+
+/** 清浮动 **/
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  _overflow: hidden;
+}
+.none {
+  display: none;
+}

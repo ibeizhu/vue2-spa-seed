@@ -1,5 +1,5 @@
 <template>
   <div>
-    this is host list
+    this is host page
   </div>
 </template>

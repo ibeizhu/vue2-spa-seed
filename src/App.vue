@@ -2,9 +2,9 @@
   <div>
     <nav-menu></nav-menu>
     <side-menu></side-menu>
-    <el-col :span="20">
+    <div class="view-wrap">
       <router-view></router-view>
-    </el-col>
+    </div>
   </div>
 </template>
 
@@ -25,8 +25,9 @@ export default {
 </script>
 
 <style>
-  body{
-    padding: 0;
-    margin: 0;
+  @import "styles/app.less";
+  .view-wrap{
+    margin-left: 190px;
+    padding-top: 70px;
   }
 </style>
