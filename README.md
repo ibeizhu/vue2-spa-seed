@@ -1,10 +1,12 @@
-# vue2 spa seed
+# vue2-spa-seed
 
 > Vue2.0 SPA Demo build by Moment
 
 # live demo
 
-[live-demo](http://www.imoment.com/)
+[live-demo](http://www.imoment.com:8060/)
+
+as installing Nginx failed in my server machine,so run code by webpack in 8060 port
 
 ## Knowledge point
 
