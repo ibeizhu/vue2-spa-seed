@@ -1,6 +1,6 @@
 <template>
   <div class="nav-menu clearfix">
-    <a href="http://www.imoment.vip"><span class="title">Vue2.0 SPA Demo build by Moment</span></a>
+    <a href="http://think.imoment.vip"><span class="title">Vue2.0 SPA Demo build by Moment</span></a>
     <div class="fright">
       <el-row>
         <el-menu theme="dark" default-active="1" class="el-menu-demo" mode="horizontal">

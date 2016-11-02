@@ -4,9 +4,8 @@
 
 # live demo
 
-[live-demo](http://www.imoment.com:8060/)
+[live-demo](http://vue.imoment.vip/)
 
-as installing Nginx failed in my server machine,so run code by webpack in 8060 port
 
 ## Knowledge point
 
@@ -20,14 +19,7 @@ as installing Nginx failed in my server machine,so run code by webpack in 8060 p
 ## Build Setup
 
 ``` bash
-# install dependencies
 npm install
-
-# serve with hot reload at localhost:8060
 npm run dev
-
-# build for production with minification
 npm run build
 ```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
